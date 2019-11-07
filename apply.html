@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Items</title>
+      <link rel="stylesheet" type="text/css" href="apply.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+    <!--Including jQuery -->
+</head>
+
+<body class="purchase">
+    <h1 class ="check"><b>Checkout</h1>
+
+    <div class="navbar">
+      <a href="cataloguePage.html"><button>Home</button></a>
+      <a href="shopCart.html"><button>Cart</button></a>
+        <a href="cataloguePage.html"><button>Catalogue Page</button></a>
+    
+    </div>
+    <!--including the links to the other pages-->
+    <section>
+        <h2>Select a branch </h2>
+        <form id="chose">
+            <input type="radio" name="selective" id="branch">
+            <label>432, Daisy Road,</label><br>
+            
+            <input type="radio" name="selective" id="way">
+            <label>33 Sydney Way</label><br>
+
+            <input type="radio" name="selective" id="sweet">
+            <label>456 Sweet Way</label><br>
+        </form>
+       
+        <h2>We also deliver</h2>
+        <form id="picky">
+            <input type="radio" name="method" id="ship">
+            <label>Ship</label><br>
+
+            <input type="radio" name="method" id="postal">
+            <label>Postal</label><br>
+
+            <input type="radio" name="method" id="truck">
+            <label>Truck</label><br>
+
+            <input type="radio" name="method" id="van">
+            <label>Van</label>
+       <!--radio form created for the user to enter their details-->
+            
+        
+
+        </form><br>
+        <form>
+            <input type="text" placeholder="Name"><br>
+            <input type="text" placeholder="Surname"><br>
+            <input type="text" placeholder="Email Address"><br>
+            <input type="text" placeholder="Home address"><br>
+            <input type="text" placeholder="Postal code"><br>
+            <input type="text" placeholder="Number"><br>
+            <input type="text" placeholder="city"><br>
+        
+            <hr>
+            <button onclick="submission()">Submit </button>
+        </form>
+    </section>
+
+
+
+<script type="text/javascript" src="apply.js"></script>
+<!--linking the html to the javascript-->
+</body>
+</html>

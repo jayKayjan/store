@@ -1,0 +1,23 @@
+ul.products li {
+    width: 370px; /* adjust the size of the catalog block */
+    display: inline-block ; /* this creates the catalog effect */
+    text-align: center; /* align the image to center */
+    background-color:purple ; /* background color of each */
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    border-radius: 10px; /* rounded borders effect */
+    border: 2px solid #585858; /* border and color */
+}
+
+img{height:340px;width:360px;padding:3px 3px 3px 3px;}
+
+
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSeyjU44h6PUCF8xBUvLNgjIK7c6AQIJLcMBvCcJJNH7EEw4K13");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.page{
+	text-align:center; 
+	font-size: 60px;
+}
